@@ -101,6 +101,9 @@ export default {
       const windowHeight = window.innerHeight
       const keyboardHeight = windowHeight - document.documentElement.clientHeight
       this.bottomOffset = keyboardHeight
+      setTimeout(() => {
+        event.target.scrollIntoView({ behavior: 'smooth' })
+      }, 300)
     },
     resetDivPosition() {
       this.bottomOffset = 0

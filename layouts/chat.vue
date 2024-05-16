@@ -14,6 +14,19 @@ export default {
   components: {
     ChatHeader,
     ChatFooter
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleResize)
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.handleResize)
+  },
+  methods: {
+    handleResize() {
+      if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+        document.body.style.height = window.innerHeight + 'px'
+      }
+    }
   }
 }
 </script>
