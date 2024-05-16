@@ -101,12 +101,11 @@ export default {
       const windowHeight = window.innerHeight
       const keyboardHeight = windowHeight - document.documentElement.clientHeight
       this.bottomOffset = keyboardHeight
-      setTimeout(() => {
-        event.target.scrollIntoView({ behavior: 'smooth' })
-      }, 300)
+      this.$parent.active()
     },
     resetDivPosition() {
       this.bottomOffset = 0
+      this.$parent.reset()
     },
     toggleOffcanvas() {
       this.isOpen = !this.isOpen
