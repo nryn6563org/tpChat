@@ -23,9 +23,15 @@ export default {
   mounted() {
     this.updateLayoutHeight()
     window.addEventListener('resize', this.updateLayoutHeight)
+
+    // 이벤트 리스너 추가: 입력 필드에 포커스가 생기거나 사라질 때
+    document.addEventListener('focusin', this.updateLayoutHeight)
+    document.addEventListener('focusout', this.updateLayoutHeight)
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateLayoutHeight)
+    document.removeEventListener('focusin', this.updateLayoutHeight)
+    document.removeEventListener('focusout', this.updateLayoutHeight)
   },
   methods: {
     updateLayoutHeight() {
