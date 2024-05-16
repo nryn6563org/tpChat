@@ -1,0 +1,40 @@
+.row-btn-group {
+  @apply flex w-full gap-2 pt-5 justify-start
+}
+
+.col-btn-group {
+  @apply flex flex-col w-full gap-2.5 pt-5 items-start
+}
+
+
+/*button*/
+.btn {
+  @apply flex justify-center
+}
+
+.btn.btn-sm {
+  @apply py-[5px] px-[15px] h-[30px] rounded-[99px] text-[14px] w-fit
+}
+
+.btn.btn-md {
+  @apply py-[7px] px-[14px] h-[38px] rounded-[99px] text-[16px] w-fit
+}
+
+.btn.btn-primary{
+  @apply bg-[#3D72FF] text-white
+}
+.btn.btn-primary-blue{
+  @apply bg-[#3D72FF] text-white
+}
+.btn.btn-default{
+  @apply bg-white border-[1px] border-[#4566BF] border-opacity-50 text-[#666]
+}
+.btn.btn-point{
+  @apply bg-[#EDF1FC] text-[#5B687A]
+}
+.btn.btn-default-black{
+  @apply bg-white border-[1px] border-[#D6D6D6] border-opacity-50 text-[#666]
+}
+.btn.btn-default-gray{
+  @apply bg-[#F3F3F3] text-[#333]
+}

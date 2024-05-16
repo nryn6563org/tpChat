@@ -1,0 +1,67 @@
+.offcanvas-bottom {
+  @apply hidden
+}
+
+.offcanvas-bottom.active {
+  @apply block
+}
+
+.offcanvas-bottom .offfcanvas {
+  @apply w-full p-[35px_20px_0] h-[564px] fixed left-0 bottom-0
+  overflow-y-auto bg-white rounded-[20px_20px_0_0] z-30
+}
+
+.offcanvas-bottom .offfcanvas .close{
+  @apply absolute top-[14px] right-[14px]
+}
+.offcanvas-bottom .offfcanvas .top{
+  @apply flex flex-col gap-3 w-full
+}
+.offcanvas-bottom .offfcanvas .top strong{
+  @apply leading-[25px] text-[18px] text-[#333] font-bold
+}
+.offcanvas-bottom .offfcanvas .top span{
+  @apply leading-[22px] text-[15px] text-[#212121]
+}
+.offcanvas-bottom .offfcanvas .cont{
+  @apply flex flex-col pt-[30px] gap-[30px]
+}
+.offcanvas-bottom .offfcanvas .cont article{
+  @apply flex flex-col w-full
+}
+.offcanvas-bottom .offfcanvas .cont article strong{
+  @apply leading-6 text-[16px] font-bold text-[#333]
+}
+.offcanvas-bottom .offfcanvas .cont article .col-btn-group{
+  @apply pt-[15px]
+}
+
+.offcanvas-bottom .overlay {
+  @apply fixed w-full h-full z-10 bg-black bg-opacity-50 inset-0
+}
+
+
+
+
+.auto-list-w{
+  @apply hidden
+}
+.auto-list-w.open{
+  @apply block left-0 w-full z-10
+}
+.auto-list{
+  @apply absolute bottom-[0] p-[25px_20px_17px] max-h-[252px] bg-white rounded-[20px_20px_0_0] flex flex-col w-full overflow-y-auto z-[20]
+}
+.auto-list button{
+  @apply text-start text-[16px] h-[35px] text-black
+}
+.auto-list button em{
+  @apply text-[#4470E4]
+}
+
+.auto-list-overlay{
+  @apply fixed inset-0 w-full h-full z-[15] bg-black bg-opacity-50 hidden
+}
+.open .auto-list-overlay{
+  @apply block
+}

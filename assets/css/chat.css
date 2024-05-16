@@ -1,0 +1,68 @@
+.talk {
+  @apply w-full h-full pt-[15px] pb-[90px] overflow-y-auto flex flex-col gap-4 relative
+}
+
+.mychat {
+  @apply flex flex-col items-end w-full
+}
+
+.mychat span {
+  @apply p-[6px_16px] rounded-[17px_0_17px_17px] h-9 bg-[#505565] text-[16px] text-white
+}
+
+.answer-btn-group{
+  @apply flex justify-end w-full pt-2.5
+}
+
+.aichat {
+  @apply flex flex-col w-full gap-2.5
+}
+
+.aichat .top {
+  @apply flex gap-3 items-center
+}
+
+.aichat .top span {
+  @apply text-[16px] text-[#141414] font-medium
+}
+
+.talk .loading {
+  @apply absolute inset-0 w-full h-full flex justify-center items-center
+}
+
+
+.aimonolog {
+  @apply flex w-full min-h-[21px] items-center text-[14px] text-[#333] leading-[21px]
+}
+
+.chatContent {
+  @apply flex flex-col w-full gap-5
+}
+
+.content001 {
+  @apply flex flex-col w-full gap-2
+}
+.content001 strong{
+  @apply text-[16px] font-bold text-[#333]
+}
+.content001 .list{
+  @apply flex flex-col w-full gap-[6px]
+}
+.content001 .list div{
+  @apply flex w-full items-start gap-[5px]
+}
+.content001 .list div em{
+  @apply min-w-[43px] h-[21px] text-[14px] text-[#666]
+}
+.content001 .list div span{
+  @apply w-[calc(100%-48px)] min-h-[21px] leading-[21px] text-[14px] text-[#212121]
+}
+.content001 .text{
+  @apply text-[14px] text-[#666] leading-[21px] w-full
+}
+.content001 .text a{
+  @apply block text-[#3d72ff]
+}
+.content002{
+  @apply flex w-full
+}

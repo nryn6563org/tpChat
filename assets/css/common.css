@@ -1,0 +1,78 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+em{
+  font-style: normal;
+}
+
+#chat{
+  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+}
+/*header*/
+header{
+  @apply fixed top-0 left-0 h-[50px] w-full flex justify-between items-center bg-[#3d72ff] px-3 z-[9]
+}
+header h1{
+  @apply text-[18px] font-bold text-white
+}
+header#sideHeader{
+  @apply flex justify-start gap-[10px]
+}
+header#sideHeader h1{
+  @apply flex gap-[10px] items-center
+}
+header#sideHeader h1 span{
+  @apply flex justify-center items-center w-6 h-6 rounded-full bg-[#a4c4e9]
+}
+header#sideHeader h1 strong{
+  @apply text-[16px] font-normal
+}
+header#sideHeader .chat_close{
+  @apply absolute top-3 right-3
+}
+
+footer{
+  @apply fixed bottom-0 left-0 w-full h-[62px] flex justify-center items-center gap-[6px] bg-[#dee2ed] backdrop-blur-[2px] z-20 px-2.5
+}
+footer .menu{
+  @apply flex w-[42px] h-[42px] rounded-full justify-center items-center bg-[#c9cfdd]
+}
+footer .sch-input-group{
+  @apply relative flex w-[calc(100%-48px)] h-[44px] rounded-[100px] border-[1px] border-[#d6d6d6] bg-[#fafbfc] px-5 py-[2px]
+}
+footer .sch-input-group input{
+  @apply w-full h-full pr-7 text-[18px] font-medium text-[#333]
+}
+footer .sch-input-group input:focus{
+  @apply outline-none
+}
+
+footer label{
+  @apply absolute top-[2px] right-[2px] w-[38px] h-[38px] bg-[#BCBEC4] rounded-full
+  flex items-center justify-center z-30
+}
+
+#container{
+  @apply w-full h-full pt-[50px] px-5
+}
+#container.side{
+  @apply px-0 pt-0
+}
+#container.activeChat{
+  @apply bg-white
+}
+
+
+*.up{
+  @apply text-[#ff4150] !important
+}
+*.dn{
+  @apply text-[#5367ff] !important
+}

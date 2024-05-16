@@ -1,0 +1,13 @@
+.main{
+  @apply relative w-full h-full
+}
+.top{
+  @apply flex flex-col w-full items-center pt-[50px] gap-2.5
+}
+.top strong{
+  @apply h-[33px] leading-[33px] text-[26px] font-medium text-black pt-2.5
+}
+.top span{
+  @apply h-[22px] leading-[22px] text-[15px] font-[#333]
+}
+
