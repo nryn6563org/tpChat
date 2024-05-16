@@ -21,13 +21,8 @@ em {
   font-style: normal;
 }
 
-.keyboard--on body {
-  @apply fixed left-0 bottom-0
-}
-
-.keyboard--on .write__dim {
-  opacity: 1;
-  pointer-events: initial;
+.keyOn{
+  @apply h-screen-vh
 }
 
 #chat {

@@ -102,10 +102,12 @@ export default {
       const keyboardHeight = windowHeight - document.documentElement.clientHeight
       this.bottomOffset = keyboardHeight
       this.$parent.active()
+      document.getElementById('chat').classList.add('keyOn')
     },
     resetDivPosition() {
       this.bottomOffset = 0
       this.$parent.reset()
+      document.getElementById('chat').classList.remove('keyOn')
     },
     toggleOffcanvas() {
       this.isOpen = !this.isOpen
