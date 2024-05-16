@@ -17,7 +17,7 @@ export default {
   },
   data() {
     return {
-      layoutHeight: '100vh' // Initial height of the layout
+      layoutHeight: '100%' // Initial height of the layout
     }
   },
   mounted() {
