@@ -13,7 +13,7 @@ em{
 }
 
 #chat{
-  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
 }
 /*header*/
 header{
