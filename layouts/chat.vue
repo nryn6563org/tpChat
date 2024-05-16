@@ -51,4 +51,8 @@ export default {
 @import '~/assets/css/offcanvas.css';
 @import '~/assets/css/button.css';
 @import '~/assets/css/table.css';
+
+#chat {
+  @apply relative w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
+}
 </style>

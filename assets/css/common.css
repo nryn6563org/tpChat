@@ -108,3 +108,7 @@ footer label {
 *.dn {
   @apply text-[#5367ff] !important
 }
+
+.main{
+  @apply w-[320px] mx-auto
+}
