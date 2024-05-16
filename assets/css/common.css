@@ -39,7 +39,7 @@ header#sideHeader .chat_close{
 }
 
 footer{
-  @apply fixed bottom-0 left-0 w-full h-[62px] flex justify-center items-center gap-[6px] bg-[#dee2ed] backdrop-blur-[2px] z-20 px-2.5
+  @apply w-full h-[62px] flex justify-center items-center gap-[6px] bg-[#dee2ed] backdrop-blur-[2px] z-20 px-2.5
 }
 footer .menu{
   @apply flex w-[42px] h-[42px] rounded-full justify-center items-center bg-[#c9cfdd]
