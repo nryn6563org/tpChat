@@ -14,7 +14,9 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
-
+#__nuxt, #__layout{
+  height: 100%;
+}
 em {
   font-style: normal;
 }
@@ -29,7 +31,7 @@ em {
 }
 
 #chat {
-  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
+  @apply w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
 }
 
 /*header*/
