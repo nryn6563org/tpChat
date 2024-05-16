@@ -1,5 +1,5 @@
 <template>
-  <div id="chat">
+  <div id="chat" :style="{ height: layoutHeight }">
     <ChatHeader />
     <Nuxt />
     <ChatFooter />
@@ -14,6 +14,23 @@ export default {
   components: {
     ChatHeader,
     ChatFooter
+  },
+  data() {
+    return {
+      layoutHeight: '100vh' // Initial height of the layout
+    }
+  },
+  mounted() {
+    this.updateLayoutHeight()
+    window.addEventListener('resize', this.updateLayoutHeight)
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateLayoutHeight)
+  },
+  methods: {
+    updateLayoutHeight() {
+      this.layoutHeight = window.innerHeight + 'px'
+    }
   }
 }
 </script>
