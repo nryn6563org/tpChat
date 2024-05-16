@@ -1,5 +1,5 @@
 <template>
-  <div id="chat" :style="{ height: layoutHeight }">
+  <div id="chat" :style="{ height: layoutHeight, overflow: 'hidden' }">
     <ChatHeader />
     <Nuxt />
     <ChatFooter />
