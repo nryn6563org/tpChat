@@ -17,6 +17,9 @@ em {
   touch-action: none;
   overflow:hidden;
 }
+.keyOn #chat{
+  @apply bottom-0 !important
+}
 
 #chat {
   @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
