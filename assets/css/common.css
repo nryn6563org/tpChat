@@ -21,9 +21,6 @@ em {
   font-style: normal;
 }
 
-.keyOn{
-  @apply h-focus-height overflos-hidden !important
-}
 
 #chat {
   @apply relative w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
@@ -84,7 +81,7 @@ footer label {
 }
 
 #container {
-  @apply w-full h-full pt-[50px] px-5
+  @apply w-[calc(100%-62px)] h-full pt-[50px] px-5
 }
 
 #container.side {
