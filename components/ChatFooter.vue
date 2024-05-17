@@ -99,21 +99,30 @@ export default {
   methods: {
     adjustDivPosition() {
       const windowHeight = window.innerHeight
-      const keyboardHeight = windowHeight - document.documentElement.clientHeight
+      const documentHeight = document.documentElement.clientHeight
+      const keyboardHeight = windowHeight - documentHeight
       this.bottomOffset = keyboardHeight
-      this.$parent.active()
-      document.getElementById('chat').classList.add('keyOn')
+
+      // Add class to the chat container
+      const chatElement = document.getElementById('chat')
+      if (chatElement) {
+        chatElement.classList.add('keyOn')
+      }
     },
     resetDivPosition() {
       this.bottomOffset = 0
-      this.$parent.reset()
-      document.getElementById('chat').classList.remove('keyOn')
+
+      // Remove class from the chat container
+      const chatElement = document.getElementById('chat')
+      if (chatElement) {
+        chatElement.classList.remove('keyOn')
+      }
     },
     toggleOffcanvas() {
       this.isOpen = !this.isOpen
     },
     openOffcanvas() {
-      this.isActive = !this.isActive
+      this.isActive = true
     },
     closeOffcanvas() {
       this.isOpen = false
