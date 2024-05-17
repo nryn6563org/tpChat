@@ -13,7 +13,7 @@ em {
   font-style: normal;
 }
 
-.keyOn{
+.keyOn *{
   touch-action: none;
   overflow:hidden;
 }
@@ -22,7 +22,7 @@ em {
 }
 
 #chat {
-  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+  @apply fixed inset-0 w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
 }
 
 /*header*/
