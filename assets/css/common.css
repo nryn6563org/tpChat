@@ -19,7 +19,7 @@ em {
 }
 
 #chat {
-  @apply fixed inset-0 w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+  @apply fixed inset-0 w-full min-h-full h-fit bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
 }
 
 /*header*/
