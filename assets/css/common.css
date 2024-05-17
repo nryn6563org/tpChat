@@ -22,7 +22,7 @@ em {
 }
 
 .keyOn{
-  @apply h-focus-height !important
+  @apply h-focus-height overflos-hidden !important
 }
 
 #chat {
