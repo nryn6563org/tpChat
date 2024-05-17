@@ -14,7 +14,17 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css'
+      }
+    ],
+    script: [
+      {
+        src: 'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js',
+        defer: true
+      }
     ]
   },
 
@@ -23,9 +33,7 @@ export default {
     '~/assets/css/common.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '~/plugins/viewport.js'
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

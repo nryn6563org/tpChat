@@ -66,3 +66,22 @@
 .content002{
   @apply flex w-full
 }
+.content004{
+  @apply w-full overflow-x-hidden
+}
+.newsList{
+  @apply w-full h-[62px]
+}
+.swiper-wrapper{
+  @apply w-full
+}
+
+.swiper-slide{
+  @apply flex w-[273px] h-[62px] p-2.5 gap-2.5 bg-[#EFEFEF] rounded-[8px] items-start
+}
+.swiper-slide .date{
+  @apply flex justify-center items-center w-[43px] px-[3px] h-5 bg-[#989BA3] rounded-[4px] not-italic text-[13px] text-white font-medium
+}
+.swiper-slide .txt{
+  @apply w-[calc(100%-53px)] leading-5 text-[#212121] text-[14px] line-clamp-2
+}

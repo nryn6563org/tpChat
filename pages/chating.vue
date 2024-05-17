@@ -218,6 +218,10 @@
           </div>
           <!--    매매현황 차트      -->
 
+          <div class="content004">
+            <NewsSlide />
+          </div>
+
           <div class="btn-gruop-w">
             <div class="row-btn-group">
               <button class="btn btn-sm btn-point">삼성전자</button>
@@ -245,8 +249,12 @@
 </template>
 
 <script>
+import NewsSlide from '~/components/NewsSlide.vue'
 export default {
   name: 'ChatMain',
+  components: {
+    NewsSlide
+  },
   layout: 'chat'
 }
 </script>
