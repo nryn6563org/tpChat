@@ -13,7 +13,7 @@ em {
   font-style: normal;
 }
 
-.keyOn *:not(.alist){
+.keyOn *{
   touch-action: none;
   overflow:hidden;
 }
