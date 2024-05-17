@@ -13,13 +13,13 @@ em {
   font-style: normal;
 }
 
-.keyOn *{
+.keyOn{
   touch-action: none;
   overflow:hidden;
 }
 
 #chat {
-  @apply fixed left-0 bottom-0 w-full min-h-full overflow-hidden bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+  @apply fixed inset-0 w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
 }
 
 /*header*/
@@ -77,7 +77,7 @@ footer label {
 }
 
 #container {
-  @apply w-full h-[calc(100%-62px)] pt-[50px] px-5
+  @apply w-full h-full pt-[50px] px-5
 }
 
 #container.side {
