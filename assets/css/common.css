@@ -11,11 +11,11 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 #__nuxt, #__layout{
-  height: 100vh;
+  height: 100%;
 }
 em {
   font-style: normal;
