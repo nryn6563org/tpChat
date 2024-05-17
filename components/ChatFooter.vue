@@ -88,6 +88,7 @@ export default {
   methods: {
     toggleOffcanvas() {
       this.isOpen = !this.isOpen
+      document.body.classList.add('keyOn')
     },
     openOffcanvas() {
       this.isActive = true
@@ -95,6 +96,7 @@ export default {
     closeOffcanvas() {
       this.isOpen = false
       this.isActive = false
+      document.body.classList.remove('keyOn')
     }
   }
 }

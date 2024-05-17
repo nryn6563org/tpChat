@@ -9,14 +9,17 @@
 *::-webkit-scrollbar {
   display: none;
 }
-
 em {
   font-style: normal;
 }
 
+.keyOn *{
+  touch-action: none;
+  overflow:hidden;
+}
 
 #chat {
-  @apply fixed w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
+  @apply fixed left-0 bottom-0 w-full min-h-full overflow-hidden bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
 }
 
 /*header*/
@@ -49,7 +52,7 @@ header#sideHeader .chat_close {
 }
 
 footer {
-  @apply fixed bottom-0 w-full h-[62px] flex justify-center items-center gap-[6px] bg-[#dee2ed] backdrop-blur-[2px] z-20 px-2.5
+  @apply fixed bottom-0 w-full h-[62px] flex justify-center items-center gap-[6px] bg-[#dee2ed] backdrop-blur-[2px] z-30 px-2.5
 }
 
 footer .menu {
