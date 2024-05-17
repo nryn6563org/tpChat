@@ -19,7 +19,10 @@ em {
 }
 
 .keyOn #chat{
-  @apply h-fit bottom-0
+  @apply h-fit bottom-0 !important
+}
+.keyOn #container{
+  @apply h-fit
 }
 
 #chat {
