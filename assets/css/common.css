@@ -24,7 +24,7 @@ em {
 
 
 #chat {
-  @apply relative w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
+  @apply relative w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-hidden;
 }
 
 /*header*/
