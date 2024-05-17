@@ -1,13 +1,17 @@
 .offcanvas-bottom {
   @apply hidden
 }
+.offcanvas-bottom *{
+  touch-action: auto !important;
+  overflow-y: auto !important;
+}
 
 .offcanvas-bottom.active {
   @apply block
 }
 
 .offcanvas-bottom .offfcanvas {
-  @apply w-full p-[35px_20px_0] h-[564px] fixed left-0 bottom-0
+  @apply w-full p-[35px_20px_0] h-[524px] fixed left-0 bottom-0
   overflow-y-auto bg-white rounded-[20px_20px_0_0] z-30
 }
 
