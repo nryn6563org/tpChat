@@ -18,8 +18,12 @@ em {
   overflow:hidden;
 }
 
+.keyOn #chat{
+  @apply h-fit bottom-0
+}
+
 #chat {
-  @apply fixed inset-0 w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED];
+  @apply fixed inset-0 w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
 }
 
 /*header*/
@@ -49,6 +53,13 @@ header#sideHeader h1 strong {
 
 header#sideHeader .chat_close {
   @apply absolute top-3 right-3
+}
+
+#footer{
+  @apply fixed w-full h-[62px] bottom-0 left-0 z-30
+}
+.keyOn #footer{
+  @apply h-full
 }
 
 footer {
