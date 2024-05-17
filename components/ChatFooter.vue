@@ -95,16 +95,16 @@ export default {
   },
   methods: {
     toggleOffcanvas() {
-      this.isOpen = !this.isOpen
       document.body.classList.add('keyOn')
+      this.isOpen = !this.isOpen
     },
     openOffcanvas() {
       this.isActive = true
     },
     closeOffcanvas() {
+      document.body.classList.remove('keyOn')
       this.isOpen = false
       this.isActive = false
-      document.body.classList.remove('keyOn')
     }
   }
 }
