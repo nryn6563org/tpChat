@@ -26,7 +26,7 @@
     <div
       class="auto-list-w"
       :class="{ 'open' : isOpen }">
-      <div class="auto-list animate__animated animate__fadeInUp animate__faster">
+      <div class="auto-list animate__animated animate__fadeInUp">
         <button><span><em>삼성전자</em> 분석해줘!</span></button>
         <button><span><em>삼성전자</em> 현재가 보여줘!</span></button>
         <button><span><em>삼성전자</em> 매매신호 알려줘!</span></button>
