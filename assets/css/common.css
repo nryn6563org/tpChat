@@ -13,7 +13,7 @@ em {
   font-style: normal;
 }
 
-.keyOn #chat{
+.keyOn *:not(.alist){
   touch-action: none;
   overflow:hidden;
 }

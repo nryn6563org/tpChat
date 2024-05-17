@@ -49,13 +49,20 @@
 .auto-list-w.open{
   @apply block left-0 w-full z-10
 }
+.auto-list-w.open *{
+  touch-action: auto !important;
+  overflow-y: auto !important;
+}
 .auto-list{
-  @apply absolute bottom-[62px] p-[25px_20px_17px] max-h-[252px] bg-white rounded-[20px_20px_0_0] flex flex-col w-full overflow-y-auto z-[20]
+  @apply absolute bottom-[62px] p-[25px_20px_17px] max-h-[252px] bg-white rounded-[20px_20px_0_0] w-full overflow-y-auto z-[20]
 }
-.auto-list button{
-  @apply text-start text-[16px] h-[35px] text-black
+.auto-list div.alist{
+  @apply w-full h-full overflow-y-auto
 }
-.auto-list button em{
+.auto-list div button{
+  @apply text-start text-[16px] h-[35px] text-black block
+}
+.auto-list div button em{
   @apply text-[#4470E4]
 }
 
