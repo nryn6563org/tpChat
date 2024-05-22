@@ -30,7 +30,7 @@ body{
 }
 
 #chat {
-  @apply fixed w-full max-w-[360px] min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
+  @apply fixed w-full max-w-[360px] min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED] overflow-y-auto
 }
 
 /*header*/
@@ -95,7 +95,7 @@ footer label {
 }
 
 #container {
-  @apply w-full h-full pt-[50px] px-5
+  @apply w-full h-full pt-[50px] px-5 overflow-y-auto
 }
 
 #container.side {
@@ -121,9 +121,9 @@ footer label {
 
 
 @media screen and (min-width: 600px){
-  #chat, header, footer, #footer, .offcanvas .offcanvas-bottom{
-    width:360px;
-    left:50%;
+  #chat, header, footer, #footer, .offcanvas-bottom, .offcanvas-bottom .offfcanvas{
+    width:360px !important;
+    left:50% !important;
     margin-left:-180px;
   }
 }
