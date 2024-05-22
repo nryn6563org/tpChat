@@ -7,9 +7,8 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'viewport', content: 'width=360px' }
+      { name: 'viewport', content: 'width=360px,user-scalable=no' },
+      { hid: 'description', name: 'description', content: 'TP' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
