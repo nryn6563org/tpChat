@@ -7,7 +7,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=360px,user-scalable=no' },
+      { name: 'viewport', content: 'width=360px, initial-scale=no' },
       { hid: 'description', name: 'description', content: 'TP' }
     ],
     link: [
