@@ -40,7 +40,7 @@ export default {
       if (width >= 600) {
         this.viewportContent = 'width=device-width, initial-scale=1'
       } else if (width <= 600) {
-        this.viewportContent = 'width=360px'
+        this.viewportContent = 'width=360px, initial-scale=1'
       } else {
         this.viewportContent = 'width=device-width, initial-scale=1'
       }

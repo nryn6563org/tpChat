@@ -1,40 +1,40 @@
 <template>
   <div class="newsList">
     <div class="swiper-wrapper">
-      <div class="news swiper-slide">
+      <button class="news swiper-slide">
         <em class="date">05/05</em>
         <span class="txt">
           삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트 삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트...
         </span>
-      </div>
+      </button>
 
-      <div class="news swiper-slide">
+      <button class="news swiper-slide">
         <em class="date">05/05</em>
         <span class="txt">
           삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트 삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트...
         </span>
-      </div>
+      </button>
 
-      <div class="news swiper-slide">
+      <button class="news swiper-slide">
         <em class="date">05/05</em>
         <span class="txt">
           삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트 삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트...
         </span>
-      </div>
+      </button>
 
-      <div class="news swiper-slide">
+      <button class="news swiper-slide">
         <em class="date">05/05</em>
         <span class="txt">
           삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트 삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트...
         </span>
-      </div>
+      </button>
 
-      <div class="news swiper-slide">
+      <button class="news swiper-slide">
         <em class="date">05/05</em>
         <span class="txt">
           삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트 삼성전자에 대해 ‘에네르기파’ 라고 대신증권에서 발표한 리포트...
         </span>
-      </div>
+      </button>
     </div>
   </div>
 </template>

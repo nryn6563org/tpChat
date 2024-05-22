@@ -1,5 +1,5 @@
 .talk {
-  @apply w-full h-full pt-[15px] pb-[90px] overflow-y-auto flex flex-col gap-4 relative
+  @apply w-full h-full pt-[15px] pb-[90px] overflow-y-auto flex flex-col gap-4 relative overflow-y-auto
 }
 
 .mychat {
@@ -36,7 +36,7 @@
 }
 
 .chatContent {
-  @apply flex flex-col w-full gap-5
+  @apply flex flex-col w-full gap-5 mt-2.5
 }
 
 .content001 {
