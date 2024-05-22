@@ -22,7 +22,7 @@ em {
 }
 
 .keyOn #chat{
-  @apply h-fit !important
+  @apply h-fit min-h-full !important
 }
 .keyOn #container{
   @apply h-fit
@@ -33,7 +33,7 @@ body{
 }
 
 #chat {
-  @apply fixed w-full max-w-[360px] h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
+  @apply fixed w-full h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
 }
 
 /*header*/
