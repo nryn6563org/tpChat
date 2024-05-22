@@ -25,8 +25,12 @@ em {
   @apply h-fit
 }
 
+body{
+  @apply bg-gray-100
+}
+
 #chat {
-  @apply fixed inset-0 w-full min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
+  @apply fixed w-full max-w-[360px] min-h-full bg-gradient-to-b from-[#F0F6FD] to-[#B1CCED]
 }
 
 /*header*/
@@ -113,4 +117,13 @@ footer label {
 
 .main{
   @apply w-[320px] mx-auto
+}
+
+
+@media screen and (min-width: 600px){
+  #chat, header, footer, #footer, .offcanvas .offcanvas-bottom{
+    width:360px;
+    left:50%;
+    margin-left:-180px;
+  }
 }
